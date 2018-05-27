@@ -15,6 +15,7 @@ $(document).ready(function(){
         type: 'GET',
         headers: { 'Api-User-Agent': 'kr0lik' },
         success: function(data) {
+            $('#list').empty();
             console.log('succeed');
             var pages = data.query.pages;
             $.each(pages,function(index,page){
