@@ -1,0 +1,18 @@
+
+body{
+    color:white;
+    padding:10px;
+    background-color:rgba(0,0,128,0.88);
+}
+#txt{
+    margin-top:10%;
+}
+.cntr{
+    text-align:center;
+}
+#textinput{
+    color:black;
+}
+.list-group-item-action{
+    color:black;
+}
